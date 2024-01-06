@@ -1,0 +1,432 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisemenApp.UI\\Cengo.AdvertisementApp.UI.csproj": {}
+  },
+  "projects": {
+    "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisemenApp.UI\\Cengo.AdvertisementApp.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisemenApp.UI\\Cengo.AdvertisementApp.UI.csproj",
+        "projectName": "Cengo.AdvertisementApp.UI",
+        "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisemenApp.UI\\Cengo.AdvertisementApp.UI.csproj",
+        "packagesPath": "C:\\Users\\Cengo\\.nuget\\packages\\",
+        "outputPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisemenApp.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cengo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Business\\Cengo.AdvertisementApp.Business.csproj": {
+                "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Business\\Cengo.AdvertisementApp.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Business\\Cengo.AdvertisementApp.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Business\\Cengo.AdvertisementApp.Business.csproj",
+        "projectName": "Cengo.AdvertisementApp.Business",
+        "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Business\\Cengo.AdvertisementApp.Business.csproj",
+        "packagesPath": "C:\\Users\\Cengo\\.nuget\\packages\\",
+        "outputPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cengo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.DataAccess\\Cengo.AdvertisementApp.DataAccess.csproj": {
+                "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.DataAccess\\Cengo.AdvertisementApp.DataAccess.csproj"
+              },
+              "D:\\Cengo.AdvertisementApp\\Cengo.Advertisementapp.Dtos\\Cengo.AdvertisementApp.Dtos.csproj": {
+                "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.Advertisementapp.Dtos\\Cengo.AdvertisementApp.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Common\\Cengo.AdvertisementApp.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Common\\Cengo.AdvertisementApp.Common.csproj",
+        "projectName": "Cengo.AdvertisementApp.Common",
+        "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Common\\Cengo.AdvertisementApp.Common.csproj",
+        "packagesPath": "C:\\Users\\Cengo\\.nuget\\packages\\",
+        "outputPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cengo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.DataAccess\\Cengo.AdvertisementApp.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.DataAccess\\Cengo.AdvertisementApp.DataAccess.csproj",
+        "projectName": "Cengo.AdvertisementApp.DataAccess",
+        "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.DataAccess\\Cengo.AdvertisementApp.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Cengo\\.nuget\\packages\\",
+        "outputPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cengo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Common\\Cengo.AdvertisementApp.Common.csproj": {
+                "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Common\\Cengo.AdvertisementApp.Common.csproj"
+              },
+              "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Entities\\Cengo.AdvertisementApp.Entities.csproj": {
+                "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Entities\\Cengo.AdvertisementApp.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cengo.AdvertisementApp\\Cengo.Advertisementapp.Dtos\\Cengo.AdvertisementApp.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cengo.AdvertisementApp\\Cengo.Advertisementapp.Dtos\\Cengo.AdvertisementApp.Dtos.csproj",
+        "projectName": "Cengo.AdvertisementApp.Dtos",
+        "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.Advertisementapp.Dtos\\Cengo.AdvertisementApp.Dtos.csproj",
+        "packagesPath": "C:\\Users\\Cengo\\.nuget\\packages\\",
+        "outputPath": "D:\\Cengo.AdvertisementApp\\Cengo.Advertisementapp.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cengo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Entities\\Cengo.AdvertisementApp.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Entities\\Cengo.AdvertisementApp.Entities.csproj",
+        "projectName": "Cengo.AdvertisementApp.Entities",
+        "projectPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Entities\\Cengo.AdvertisementApp.Entities.csproj",
+        "packagesPath": "C:\\Users\\Cengo\\.nuget\\packages\\",
+        "outputPath": "D:\\Cengo.AdvertisementApp\\Cengo.AdvertisementApp.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Cengo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

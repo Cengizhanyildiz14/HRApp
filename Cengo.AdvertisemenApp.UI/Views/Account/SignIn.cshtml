@@ -1,0 +1,86 @@
+﻿@model AppUserLoginDto
+@{
+    Layout = "_Layout";
+}
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="giris">
+                    <form asp-action="SignIn" asp-controller="Account" method="post" class="p-4 w-75 mx-auto">
+
+                        <div class="col-12 justify-content-center d-flex mb-3">
+
+                            <h4>GİRİŞ YAP</h4>
+                            <style>
+                                h4 {
+                                    font-weight: bold;
+                                }
+                            </style>
+
+                        </div>
+                        <div class="mb-3">
+                            <input asp-for="@Model.Username" class="form-control" placeholder="Adınızı giriniz" />
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="password" asp-for="@Model.Password" class="form-control"
+                                   placeholder="Şifrenizi giriniz" />
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" asp-for="@Model.RememberMe"
+                                   id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                <p>Beni hatırla</p>
+                            </label>
+                        </div>
+
+                        <a class="yazi" asp-action="SignUp" asp-controller="account">
+                            <p >Hesabınız yoksa kayıt olabilirsiniz</p>
+                        </a>
+
+
+                        <div class="mb-2 mt-3 text-end justify-content-center d-flex">
+                            <button type="submit" class="btn btn-dark">Giriş Yap</button>
+                        </div>
+
+                        <div class="text-danger" asp-validation-summary="All">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <style>
+        body {
+            background-image: url(/Images/girişresim.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+           
+        }
+
+        .giris {
+            padding: 20px;
+            align-items: center;
+            display: flex;
+            position: relative;
+            border-radius: 10px;
+            background: #ffff;
+            color: rgb(70, 68, 68);
+            opacity: 0.9;
+            top:55%;
+            box-shadow: 8px 4px 6px rgba(0, 0, 0, 0.11), 8px 3px 3px rgba(0, 0, 0, 0.08);
+        }
+
+            .giris p {
+                font-size: 10px;
+            }
+            .yazi{
+                font-size:10px;
+            }
+    </style>
+
+</body>

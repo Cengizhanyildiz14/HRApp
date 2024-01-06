@@ -1,0 +1,82 @@
+﻿@model AdvertisementCreateDto
+@{
+    Layout = "_Layout";
+}
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="ilan">
+
+                    <form asp-action="Create" asp-controller="Application" method="post">
+                        <h6 class="text-center">İlan oluşturma  </h6>     <div class="mb-3">
+                            <label>İlanın Başlığı</label>
+                            <input type="text" class="form-control" asp-for="@Model.Title" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-check-label">Aktif</label>
+                            <input type="checkbox" class="form-check-input" asp-for="@Model.Status" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label>İçerik</label>
+                            <textarea asp-for="@Model.Description" class="form-control"></textarea>
+                        </div>
+
+                        <div class="mb-2 mt-2">
+                            <button class="btn">Kaydet</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+@section script {
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.25.1/trumbowyg.min.js"
+            integrity="sha512-t4CFex/T+ioTF5y0QZnCY9r5fkE8bMf9uoNH2HNSwsiTaMQMO0C9KbKPMvwWNdVaEO51nDL3pAzg4ydjWXaqbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $("#Description").trumbowyg();
+        })
+    </script>
+}
+
+@section css {
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Trumbowyg/2.25.1/ui/trumbowyg.min.css"
+          integrity="sha512-nwpMzLYxfwDnu68Rt9PqLqgVtHkIJxEPrlu3PfTfLQKVgBAlTKDmim1JvCGNyNRtyvCx1nNIVBfYm8UZotWd4Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+}
+<style>
+    .ilan {
+        padding: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        background: rgb(38, 43, 85);
+        color: white;
+        font-size: 12px;
+        opacity: 0.9;
+        box-shadow: 8px 4px 6px rgba(0, 0, 0, 0.11), 8px 3px 3px rgba(0, 0, 0, 0.08);
+    }
+
+    body {
+        background: #e6e6e6;
+    }
+
+    .btn {
+        background: #6666ff;
+    }
+
+</style>

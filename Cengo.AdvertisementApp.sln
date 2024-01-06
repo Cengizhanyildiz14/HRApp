@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cengo.AdvertisementApp.Common", "Cengo.AdvertisementApp.Common\Cengo.AdvertisementApp.Common.csproj", "{812126ED-CC90-4FD2-B7AD-8543C0C0EF47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cengo.AdvertisementApp.Entities", "Cengo.AdvertisementApp.Entities\Cengo.AdvertisementApp.Entities.csproj", "{7491A682-7B36-4A2B-AB31-D3A0F3DDB2B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cengo.AdvertisementApp.DataAccess", "Cengo.AdvertisementApp.DataAccess\Cengo.AdvertisementApp.DataAccess.csproj", "{4DB1D7B1-FF40-4F46-A0FC-6EC83707BDAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cengo.AdvertisementApp.Business", "Cengo.AdvertisementApp.Business\Cengo.AdvertisementApp.Business.csproj", "{B6053708-CC84-4ED2-9C5F-14143B3D87F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cengo.AdvertisementApp.UI", "Cengo.AdvertisemenApp.UI\Cengo.AdvertisementApp.UI.csproj", "{E51A4ACE-1D70-4A56-9C82-84079779A9D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cengo.AdvertisementApp.Dtos", "Cengo.Advertisementapp.Dtos\Cengo.AdvertisementApp.Dtos.csproj", "{AF9BF23D-EBD9-46D5-8EDD-F4AE5B042FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{812126ED-CC90-4FD2-B7AD-8543C0C0EF47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812126ED-CC90-4FD2-B7AD-8543C0C0EF47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812126ED-CC90-4FD2-B7AD-8543C0C0EF47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812126ED-CC90-4FD2-B7AD-8543C0C0EF47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7491A682-7B36-4A2B-AB31-D3A0F3DDB2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7491A682-7B36-4A2B-AB31-D3A0F3DDB2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7491A682-7B36-4A2B-AB31-D3A0F3DDB2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7491A682-7B36-4A2B-AB31-D3A0F3DDB2B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DB1D7B1-FF40-4F46-A0FC-6EC83707BDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DB1D7B1-FF40-4F46-A0FC-6EC83707BDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DB1D7B1-FF40-4F46-A0FC-6EC83707BDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DB1D7B1-FF40-4F46-A0FC-6EC83707BDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6053708-CC84-4ED2-9C5F-14143B3D87F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6053708-CC84-4ED2-9C5F-14143B3D87F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6053708-CC84-4ED2-9C5F-14143B3D87F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6053708-CC84-4ED2-9C5F-14143B3D87F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E51A4ACE-1D70-4A56-9C82-84079779A9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E51A4ACE-1D70-4A56-9C82-84079779A9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E51A4ACE-1D70-4A56-9C82-84079779A9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E51A4ACE-1D70-4A56-9C82-84079779A9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9BF23D-EBD9-46D5-8EDD-F4AE5B042FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9BF23D-EBD9-46D5-8EDD-F4AE5B042FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9BF23D-EBD9-46D5-8EDD-F4AE5B042FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9BF23D-EBD9-46D5-8EDD-F4AE5B042FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C90B18D4-CFA1-4D6B-B502-470E1EB64652}
+	EndGlobalSection
+EndGlobal

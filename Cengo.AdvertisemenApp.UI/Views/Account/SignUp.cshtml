@@ -1,0 +1,98 @@
+﻿@model UserCreateModel
+@{
+    Layout = "_Layout";
+} <div class="container">
+    <div class="row">
+        <div class="col-12 col-md-6 mb-3">
+            <div class="giris">
+                <form asp-action="SignUp" asp-controller="Account" method="post" class="p-4 w-75 mx-auto">
+                    <div class="col-12 justify-content-center d-flex mb-3">
+                        <h4>KAYIT OL</h4>
+                        <style>
+                            h4 {
+                                font-weight: bold;
+                            }
+                        </style>
+                    </div>
+                    <div class="">
+                        <form asp-action="SignUp" asp-controller="Account" method="post" class="p-4 w-75 mx-auto">
+                            <div class="mb-3">
+
+                                <input asp-for="@Model.Firstname" class="form-control" placeholder="İsim" />
+                            </div>
+                            <div class="mb-3">
+
+                                <input asp-for="@Model.Surname" class="form-control" placeholder="Soyadı" />
+                            </div>
+
+                            <div class="mb-3">
+
+                                <input asp-for="@Model.Username" class="form-control" placeholder="Kullanıcı Adı" />
+                            </div>
+
+                            <div class="mb-3">
+
+                                <input asp-for="@Model.PhoneNumber" class="form-control"
+                                       placeholder="Telefon Numarası" />
+                            </div>
+
+                            <div class="mb-3">
+                                <select class="form-select" asp-items="@Model.Genders" asp-for="@Model.GenderId">
+                                    <option value="0">Cinsiyet</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+
+                                <input type="password" asp-for="@Model.Password" class="form-control"
+                                       placeholder="Şifre" />
+                            </div>
+
+                            <div class="mb-3">
+
+                                <input type="password" asp-for="@Model.ConfirmPassword" class="form-control"
+                                       placeholder="Şifre tekrar" />
+                            </div>
+
+                            <div class="col-12 justify-content-center d-flex">
+                                <div class="mb-1 mt-1 text-end ">
+                                    <button type="submit" class="btn btn-dark">Kayıt Ol</button>
+                                </div>
+                            </div>
+
+
+                            <div class="text-danger" asp-validation-summary="All">
+                            </div>
+                        </form>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<style>
+    body {
+        background-image: url(/Images/girişresim.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .giris {
+        padding: 10px;
+        margin-top: 30%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        border-radius: 10px;
+        background: #ffff;
+        color: rgb(70, 68, 68);
+        opacity: 0.8;
+        box-shadow: 8px 4px 6px rgba(0, 0, 0, 0.11), 8px 3px 3px rgba(0, 0, 0, 0.08);
+    }
+
+        .giris p {
+            font-size: 10px;
+        }
+</style>

@@ -1,0 +1,114 @@
+﻿@model List<ProvidedServiceListDto>
+@{
+    Layout = "_Layout";
+}
+
+<header class=" slide text-center text-white">
+    <div class="slide-content">
+        <div class="container px-5">
+            <b class="masthead-heading mb-0">Yıldız Bilişim</b>
+            <h2 class=" mb-0"></h2>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a class="btn rounded-pill mt-4" asp-action="humanresource" asp-controller="home">Daha fazla</a>
+            }
+            else
+            {
+                <a class="btn rounded-pill mt-4" asp-action="signin" asp-controller="account">Daha fazla</a>
+            }
+        </div>
+    </div>
+</header>
+
+
+
+
+
+<!-- Misyon -->
+<section class="container mission-section mt-5">
+    <div class="row">
+        <div class="col-md-6 col-12">
+            <h2 class="text-center section-title mb-3 mt-3">Misyonumuz</h2>
+            <p class="section-content">
+                Yıldız Yazılım Şirketi olarak misyonumuz, müşterilerimize inovatif ve özelleştirilebilir yazılım çözümleri sunarak iş süreçlerini optimize etmelerine yardımcı olmak ve onları rekabet avantajı elde etmelerini sağlamaktır. Müşteri memnuniyetini en üst düzeye çıkarmak için sürekli olarak yeni teknolojilere adapte oluyor, iş süreçlerimizi iyileştiriyor ve müşterilerimizin iş hedeflerine ulaşmalarına destek oluyoruz.
+            </p>
+        </div>
+        <div class="col-md-6 col-12 p-4">
+            <img src="/Images/misyon.jpg" class="img-fluid d-none d-md-flex " />
+        </div>
+    </div>
+</section>
+
+<!-- Tarihçe -->
+<section class="container history-section mt-5 mb-5">
+    <div class="row">
+        <div class="col-md-6 col-12">
+            <img src="/Images/tarihçe.png" class="img-fluid" />
+        </div>
+        <div class="col-md-6 col-12 p-4">
+            <h2 class="text-center section-title mb-3">Tarihçe</h2>
+            <p class="section-content">
+                Yıldız Yazılım Şirketi, 2012 yılında bir grup tutkulu yazılım mühendisi tarafından kuruldu. Kuruluşumuzdan bu yana, teknolojik gelişmeleri takip ederek ve müşteri odaklı bir yaklaşım benimseyerek büyüdük. İlk yıllarımızda küçük ölçekli projelerle başladık, ancak hızla genişleyerek çeşitli sektörlerde büyük ölçekli projelere imza attık.
+                <br><br>
+                Yıldız Yazılım Şirketi, uzman ekibi ve müşteri odaklı çözümleri ile sektörde adını duyurdu. Bugün, dünya genelinde müşterilerimize en iyi hizmeti sunmak ve teknolojiyi geleceğin ihtiyaçlarına uygun olarak şekillendirmek için çalışmaya devam ediyoruz.
+            </p>
+        </div>
+    </div>
+
+</section>
+<footer class="footer mt-auto py-3 bg-dark mt-5">
+
+    <div class="container ">
+        <div class="col-12 justify-content-center d-flex">
+            <span class="text-muted text-center">Copyright &copy; 2023</span>
+        </div>
+    </div>
+</footer>
+<style>
+    h2 {
+        color: blueviolet;
+    }
+ 
+
+    .slide {
+        background: rgb(34,193,195);
+        background: linear-gradient(84deg, rgba(34,193,195,1) 0%, rgba(253,45,112,1) 100%);
+        padding: 20px;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: white;
+    }
+
+    b {
+        font-size: 80px;
+        font-family: 'Calisto MT';
+    }
+    .section-content{
+        font-size:18px;
+        
+       
+    }
+   
+   
+
+    .btn {
+        background: #dc437c;
+        color: white;
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .slide :hover {
+        color: white;
+    }
+
+    img {
+        border-radius: 10px;
+        box-shadow: 5px 3px 8x 3px rgba(0, 0, 0, 0.11), 5px 8px 3px 3px rgba(0, 0, 0, 0.08);
+    }
+
+   
+</style>
+

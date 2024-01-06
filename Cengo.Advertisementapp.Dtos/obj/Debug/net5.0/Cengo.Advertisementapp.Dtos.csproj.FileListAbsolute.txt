@@ -1,0 +1,12 @@
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\bin\Debug\net5.0\Cengo.Advertisementapp.Dtos.deps.json
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\bin\Debug\net5.0\Cengo.Advertisementapp.Dtos.dll
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\bin\Debug\net5.0\Cengo.Advertisementapp.Dtos.pdb
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\Cengo.Advertisementapp.Dtos.csproj.AssemblyReference.cache
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\Cengo.Advertisementapp.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\Cengo.Advertisementapp.Dtos.AssemblyInfoInputs.cache
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\Cengo.Advertisementapp.Dtos.AssemblyInfo.cs
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\Cengo.Advertisementapp.Dtos.csproj.CoreCompileInputs.cache
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\Cengo.Advertisementapp.Dtos.dll
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\refint\Cengo.Advertisementapp.Dtos.dll
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\Cengo.Advertisementapp.Dtos.pdb
+D:\Cengo.AdvertisementApp\Cengo.Advertisementapp.Dtos\obj\Debug\net5.0\ref\Cengo.Advertisementapp.Dtos.dll
